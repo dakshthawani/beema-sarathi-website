@@ -1,0 +1,41 @@
+/* Clean, modern CSS for Bima Sarthi Insurance Website */
+
+.App {
+  /* Remove any default text alignment to maintain natural reading flow */
+}
+
+/* Ensure smooth animations and transitions */
+.App * {
+  box-sizing: border-box;
+}
+
+/* Focus styles for accessibility */
+.App *:focus {
+  outline: 2px solid #059669;
+  outline-offset: 2px;
+}
+
+/* Remove default button and input focus styles in favor of our custom ones */
+.App button:focus,
+.App input:focus,
+.App textarea:focus,
+.App select:focus {
+  outline: none;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection colors */
+::selection {
+  background-color: #059669;
+  color: white;
+}
+
+/* Ensure images are responsive */
+.App img {
+  max-width: 100%;
+  height: auto;
+}
